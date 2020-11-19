@@ -1,0 +1,43 @@
+.navbar {
+    /*text-align: center;
+    color: aqua;
+    font-weight: 500;
+    background-color: green;*/
+}
+.btn-success {
+    background-color: #025157;
+    border: none;
+}
+
+.sign {
+    margin-right: 15px;
+    
+    color: #025157;;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card  img {
+    transition: all .3s ease-in-out;
+  }
+  .card  img:hover {
+    transform: scale(1.03) rotate(.3deg);
+    
+  } 
+  
+  .card a:hover {
+      color: #67B54B;
+  }
+  .card {
+    overflow: hidden;
+
+  }
+
+  #tools img {
+    max-width: 38px;
+  }
