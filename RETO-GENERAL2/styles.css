@@ -181,22 +181,30 @@ h2 {
   transition: all .3s ease-in-out;
   
 }
+.im1 .card-body p:hover { 
+  transform: scale(1.03) rotate(.3deg);
+}
 
 .im1 .card-body p{
   transition: all .2s ease-in-out;
 }
 
 .im1 .card-body h2 {
-  color: white;
   transition: all .2s ease-in-out;
+}
+.im1 .card-body h2:hover {
+  transform: scale(1.03) rotate(.3deg);
 }
 .im2 img{
   position: absolute;
-  transition: all .3s ease-in-out;
+  transition: all .3s ease-out;
   display: inline-block;
   height: auto;
 }
-
+.im2 img:hover{
+  
+  transform: translate(0px,3px);
+}
 .container5 a {
   font-size: 15px ;
   color: #6abf4b;
@@ -208,9 +216,35 @@ h2 {
 .im3 {
   background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/css/../img/gfx/blocks/texture.jpg");
   width: 100%;
+  height: 115px;
+  background-repeat: repeat-x;
+  transition: all 2s ease-in-out;
+  border-bottom: solid white 1px;
+}
+.im3:hover  {
   
 }
 
 .im33 {
   background-color: #fade82 ;
+  color: #025157;
+  font-size: 17px;
+}
+
+.im33 a {
+  text-decoration: none;
+  color: #025157;
+  font-size: 19px;
+}
+
+.im4 {
+  background-color: #025157 !important;
+}
+
+.im44 img {
+  height: 90% !important;
+  transition: all 330ms ease-in-out;
+}
+.im44 img:hover {
+  transform: translate(0px,-5px);
 }
