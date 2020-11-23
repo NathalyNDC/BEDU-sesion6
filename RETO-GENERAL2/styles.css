@@ -248,3 +248,138 @@ h2 {
 .im44 img:hover {
   transform: translate(0px,-5px);
 }
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    /****sección 1*****/
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .container1 h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 32px;
+    width: 80%;
+    margin: auto;
+  }
+  .container1 button {
+    width: 100%;
+  }
+  .container1 p {
+    text-align: center;
+  }
+   /****sección 4*****/
+  .container4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+ /****sección 5*****/
+ .container5 .im1 .card-body {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .im2 {
+  display: none;
+}
+.container5 h2{
+  font-size: 35px;
+}
+.im4 div {
+  width: 100%;
+  height: 100%;
+ display: grid;
+ grid-template: 1fr / 1fr 1fr;
+}
+.im41 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 1/1/2/2;
+}
+.im44 {
+  grid-area: 1/2/2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+/** dispositivos medianos (tablets) //////////////////////////////////////////////////////////////////*/
+@media (min-width: 768px) and (max-width: 991px) {
+     /****sección 1*****/
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.container1 article {
+  width: 100%;
+}
+  
+  .container1 h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 32px;
+    width: 80%;
+    margin: auto;
+  }
+  .container1 button {
+    width: 100%;
+  }
+  .container1 p {
+    text-align: center;
+  } 
+  /**********sección 4****/
+  .container4 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 100px !important;
+  }
+
+  .container4 .carousel {
+    margin-left: 100px !important;
+  }
+  /****sección 5*****/
+ 
+ .container5 .im1 .card-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.im2 {
+ display: none;
+}
+.container5 h2{
+ font-size: 35px;
+}
+.im4 div {
+ width: 100%;
+ height: 100%;
+display: grid;
+grid-template: 1fr / 1fr 1fr;
+}
+.im41 {
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ grid-area: 1/1/2/2;
+}
+.im44 {
+ grid-area: 1/2/2/3;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+}
